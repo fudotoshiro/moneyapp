@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "826571562983",
+    "project_id": "money-app-b215f",
+    "storage_bucket": "money-app-b215f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826571562983:android:a3eb1d6898decf87956742",
+        "android_client_info": {
+          "package_name": "com.kafka.moneyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826571562983-svivuaaguhpuf7s92omk228m1135cqim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4uE1M7O0psixeEzhl5Hfv_YC7MvIfo0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826571562983-svivuaaguhpuf7s92omk228m1135cqim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

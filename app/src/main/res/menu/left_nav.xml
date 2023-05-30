@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:shownIn="navigation_view">
+    <item android:title="Profile">
+        <menu>
+        <item android:id="@+id/profile_name" android:title="Name" android:icon="@drawable/baseline_person_24"/>
+        <item android:id="@+id/profile_passwordchange" android:title="Change password" android:icon="@drawable/baseline_lock_24"/>
+        <item android:id="@+id/profile_log_out" android:title="Log Out" android:icon="@drawable/baseline_exit_to_app_24"/>
+        </menu>
+    </item>
+    <item android:title="Settings">
+        <menu>
+        <item android:id="@+id/profile_settigns" android:title="Settings" android:icon="@drawable/baseline_settings_24"/>
+        <item android:id="@+id/profile_currency" android:title="Currency" android:icon="@drawable/baseline_monetization_on_24"/>
+        </menu>
+    </item>
+</menu>

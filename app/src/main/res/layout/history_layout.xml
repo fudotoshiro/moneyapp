@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:clickable="true"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:background="?selectableItemBackground">
+    
+    <TextView
+        android:id="@+id/history_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bananas"
+        android:textSize="20sp"
+        android:layout_marginStart="6dp"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/history_amount"
+        android:textSize="25sp"
+        android:layout_marginEnd="12dp"
+        android:text="12$"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/history_date"
+        android:text="20.02.2004"
+        android:textColor="@color/black"
+        android:layout_gravity="center_vertical"
+        />
+
+</LinearLayout>
