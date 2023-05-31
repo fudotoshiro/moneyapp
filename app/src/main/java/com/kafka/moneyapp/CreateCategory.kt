@@ -28,6 +28,8 @@ class CreateCategory : DialogFragment() {
 
             if(categoryName.isEmpty())
                 binding.categoryInput.error = "Please add a valid category name"
+
+
         }
         return binding.root
     }

@@ -28,21 +28,19 @@ class history : Fragment() {
         // Inflate the layout for this fragment
         binding = FragmentHistoryBinding.inflate(layoutInflater, container, false)
         super.onCreate(savedInstanceState)
-        history = arrayListOf(
-            //historyModel(id = 1, label = "Кафе", amount = -10000.00, date = "20.02.2004", category = "")
-        )
+        history = arrayListOf(        )
 
         historyAdapter = historyAdapter(history)
         linearlayoutManager = LinearLayoutManager(context)
 
-
+        db = Room.databaseBuilder(requireContext().applicationContext, AppDatabase::class.java, "transactions").build()
 
         binding.recyclerview.apply {
             adapter = historyAdapter
             layoutManager = linearlayoutManager
         }
         //return inflater.inflate(R.layout.fragment_history, container, false)
-        //fetchAll()
+        fetchAll()
         return binding.root
 
     }

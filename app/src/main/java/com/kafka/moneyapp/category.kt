@@ -29,7 +29,6 @@ class category : Fragment() {
         }
 
 
-
         return binding.root
 
     }
